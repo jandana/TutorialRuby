@@ -11,7 +11,7 @@ class HolaMundo
 		#solo existe dentro de la clase
 		@variableDeInstancia="esto es una variable de instancia"
 		#esta es una variable global
-		$descripcion="Esto es una clase de ejemplo"
+		$descripcion="Esto es una variable global"
 		#las variables que no llevan signo al inicio son locales y solo se pueden usar dentro del metodo
 	end
 	def saluda()
@@ -40,6 +40,10 @@ class HolaMundo
 	def descripcion()
 		puts $descripcion
 	end
+	def concatenacion()
+		resultado=2+3
+		puts "el resultado es = #{resultado}"
+	end
 
 
 end
@@ -51,4 +55,5 @@ objeto.suma()
 objeto.convertirVariables()
 objeto.saludaConVariableGlobal
 objeto.descripcion()
+objeto.concatenacion()
 gets()#esto es solo para pausar la ejecucion como en c
