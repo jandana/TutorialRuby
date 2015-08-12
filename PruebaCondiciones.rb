@@ -70,6 +70,7 @@
  		end
  		puts respuesta
  	end
+ 	
  end
  obj=PruebaIf.new()
  obj.ifBasico
