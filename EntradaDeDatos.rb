@@ -3,8 +3,8 @@ class EntradaDeDatos
 	end
 	def entradaBasica()
 		puts "Dame tu nombre"
-		nombre=gets
-		print "hola"+nombre
+		nombre=gets #elimina el salto de linea con gets.chomp
+		print "hola "+nombre
 	end
 end
 obj=EntradaDeDatos.new()
